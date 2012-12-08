@@ -1,0 +1,45 @@
+Created as class project - Palacky University Olomouc - "Projecktovy seminar 1"
+by honzikd
+
+
+# ABOUT
+
+The Osetin Checkers is just a variant of well-known game checkers, but with
+slightly different rules. Also, the diameter of the playboard differs. 
+The project has been created as class project at Palacky University Olomouc, as 
+part of class called "Projektovy seminar 1".
+
+
+# RULES
+
+I. The game is played on board of diameter 7 - so, there are totally 56 fields
+on the board.
+
+
+II. Every player holds 21 stones at the beginning of the game
+
+
+III. Valid moves:
+
+ ___ ___ ___
+| 2 | 3 | 4 |	1 - on the next free field on the left
+ --- --- ---	2 - one up, one left
+| 1 | X | 5 |	3 - one up 
+ --- --- ---	4 - one up, one right
+		5 - one left
+
+When the stone reaches the opposite edge of the playboard, is stops - there's no 
+special figure like queen etc.
+
+
+IIII. Valid skips:
+
+There's no special figure like queen. Skips could be performed in any direction. The lenght of the skip step has to be always 2. The skip could contain multiple 
+steps - in various directions. 
+
+
+IV. The game ends in case one of the players has no stones left, or, when the 
+stones couldn't move due to being blocked.
+
+
+# IMPLEMENTATION
